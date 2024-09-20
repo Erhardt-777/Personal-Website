@@ -315,21 +315,6 @@ footer{
     margin-bottom: 2rem;
 }
 
-
-@media (max-width:773px){
-    /* #nav-div{
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        text-transform: uppercase;
-    } */
-
-    #photo_format, #resume_photo-format{
-        width: 100%;
-        object-fit: cover;
-    }
-}
-
 @media (max-width:1130px){
     #showcase-p2{
         width: fit-content;
@@ -347,6 +332,26 @@ footer{
         grid-template-columns: 350px 350px;
         grid-template-rows: auto auto auto;
         justify-content: center;
+    }
+}
+
+@media (max-width:1087px){
+    #p-2{
+        margin: auto;
+    }
+}
+
+@media (max-width:773px){
+    /* #nav-div{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+    } */
+
+    #photo_format, #resume_photo-format{
+        width: 100%;
+        object-fit: cover;
     }
 }
 
