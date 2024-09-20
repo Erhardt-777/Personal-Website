@@ -341,17 +341,29 @@ footer{
     }
 }
 
-@media (max-width:773px){
-    /* #nav-div{
+@media (max-width:775px){
+    #header_div {
+        display: inline;
+        text-align: center;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+
+    #nav-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 2rem;   
+        gap: 10px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-style: normal;
         text-transform: uppercase;
-    } */
-
-    #photo_format, #resume_photo-format{
-        width: 100%;
-        object-fit: cover;
     }
 }
 
@@ -365,5 +377,10 @@ footer{
     }
     .showcase-album{
         margin-bottom: 10%;
+    }
+
+    #photo_format, #resume_photo-format{
+        width: 100%;
+        object-fit: cover;
     }
 }
